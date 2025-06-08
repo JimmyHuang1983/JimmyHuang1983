@@ -1,7 +1,7 @@
-
 {
   "name": "typing-game",
   "version": "1.0.0",
+  "homepage": "https://JimmyHuang1983.github.io/typing-game", // <--- 加在這裡
   "scripts": {
     "dev": "vite",
     "build": "vite build",
