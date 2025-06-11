@@ -1,7 +1,7 @@
 {
   "name": "typing-game",
   "version": "1.0.0",
-  "homepage": "https://JimmyHuang1983.github.io/typing-game", 
+  "homepage": "https://JimmyHuang1983.github.io/typing-game",
   "scripts": {
     "dev": "vite",
     "build": "vite build --outDir dist",
@@ -9,11 +9,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^18.0.0",        
+    "react-dom": "^18.0.0"    
   },
   "devDependencies": {
-    "vite": "^4.0.0",
-    "gh-pages": "^5.0.0"
+    "vite": "^4.0.0",             
+    "gh-pages": "^5.0.0",          
+    "@vitejs/plugin-react": "^3.0.0" 
   }
 }

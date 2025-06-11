@@ -1,0 +1,1 @@
+body{margin:0;font-family:sans-serif}@keyframes float-up{0%{opacity:1;transform:translate(-50%)}to{opacity:0;transform:translate(-50%,-50px)}}.animate-float-up{animation:float-up 1s forwards}

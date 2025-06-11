@@ -1,1 +1,15 @@
 body { margin: 0; font-family: sans-serif; }
+@keyframes float-up {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, 0); /* 初始位置 */
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50px); /* 向上飄浮並消失 */
+  }
+}
+
+.animate-float-up {
+  animation: float-up 1s forwards; /* 1秒動畫，並停留在最後一幀 */
+}
